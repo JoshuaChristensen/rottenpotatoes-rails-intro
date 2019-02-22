@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 ruby '2.4.4'
 
+# gem requirement added as suggested by tzinfo to resolve error
+gem 'tzinfo-data'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.10'
 # Use SCSS for stylesheets
